@@ -1,0 +1,44 @@
+.section-seven {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 56px;
+  margin-bottom: 120px;
+  margin-top: 44px;
+}
+
+.section-seven .sec-seven-left {
+  width: 50%;
+  margin-top: 59px;
+}
+
+.section-seven .sec-seven-left h3 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.section-seven .sec-seven-left p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.section-seven .sec-seven-left button {
+  width: 220px;
+  height: 64px;
+  background-color: #71a894;
+  padding: 20px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.section-seven .sec-seven-left button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

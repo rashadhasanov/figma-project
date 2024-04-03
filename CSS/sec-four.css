@@ -1,0 +1,104 @@
+.section-four {
+  padding: 0 54px 0 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-four .sec-four-card {
+  width: 35%;
+  border: 4px solid black;
+  border-radius: 16px;
+  padding: 32px 40px;
+}
+
+.sec-4-user-info {
+  display: flex;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.sec-4-user-info .user-name h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -2%;
+  margin-top: 4px;
+}
+
+.sec-4-user-info .user-name h5 {
+  font-weight: 100;
+  font-style: italic;
+  line-height: 24px;
+  letter-spacing: -2%;
+  color: #66645e;
+}
+
+.sec-four-card p {
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -2%;
+  margin-bottom: 48px;
+}
+
+.sec-four-card .user-description {
+  display: flex;
+  gap: 100px;
+}
+
+.user-description .commit-shares h5 {
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -2%;
+  color: #66645e;
+  margin-bottom: 12px;
+}
+
+.user-description .commit-shares h6 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -2%;
+  color: #303031;
+}
+
+.sec-four-card button {
+  width: 100%;
+  font-family: inherit;
+  padding: 12px 24px;
+  border: none;
+  background-color: #303031;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -2%;
+  color: white;
+  border-radius: 16px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.sec-four-card button:hover {
+  background-color: white;
+  color: #303031;
+  box-shadow: 5px 5px 15px;
+}
+
+.section-four .section-four-right-box {
+  width: 45%;
+  margin-top: 39px;
+  margin-bottom: 39px;
+}
+
+.section-four .section-four-right-box h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  margin: 24px 0;
+}
+
+.section-four .section-four-right-box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -2%;
+}

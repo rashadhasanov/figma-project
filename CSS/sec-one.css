@@ -1,0 +1,48 @@
+.section-one {
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 187px;
+}
+
+.section-one-left-box {
+  width: 45%;
+  margin-top: 158px;
+}
+
+.section-one-left-box h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  margin-bottom: 24px;
+}
+
+.section-one-left-box p {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  margin-bottom: 39px;
+  line-height: 32px;
+}
+
+.section-one-left-box button {
+  width: 220px;
+  height: 64px;
+  background-color: #71a894;
+  border-radius: 8px;
+  padding: 20px 24px;
+  border: none;
+  font-family: inherit;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.section-one-left-box button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.section-one .sec-one-image {
+  margin: 48px 0 187px 0;
+}

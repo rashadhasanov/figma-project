@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.09px;
+  letter-spacing: -2%;
+  border-bottom: 1px solid #e7e7e7;
+  
+}
+
+.header .resp-logo {
+  display: none;
+}
+
+.header .nav-icon {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 5px solid transparent;
+}
+
+.navbar a:hover {
+  border-bottom: 1px solid black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navbar .green-link {
+  color: #71a894;
+  border-bottom: 5px solid transparent;
+  font-weight: 800;
+}
+
+.navbar .green-link:hover {
+  border-bottom: 1px solid #71a894;
+  transition: 0.5s;
+  cursor: pointer;
+}

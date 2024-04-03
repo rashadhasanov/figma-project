@@ -1,0 +1,95 @@
+.section-six {
+  padding: 0 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+.section-six h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section-six > p {
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -2%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.sec-six-cards {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 64px;
+}
+
+.sec-six-cards .card {
+  padding: 24px;
+  width: 32%;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sec-six-cards .card h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  margin-bottom: 16px;
+}
+
+.sec-six-cards .card p {
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -2%;
+  margin-bottom: 24px;
+}
+
+.sec-six-cards .card button {
+  background-color: #71a894;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 40px;
+  width: 68px;
+  height: 32px;
+}
+
+.sec-six-cards .card div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-six-cards .card div span {
+  font-weight: 100;
+  letter-spacing: -2%;
+  line-height: 24px;
+  font-style: italic;
+}
+
+.section-six > button {
+  border: none;
+  padding: 20px 24px;
+  border-radius: 8px;
+  font-family: inherit;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.section-six > button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
