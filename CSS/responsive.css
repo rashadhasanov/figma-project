@@ -279,3 +279,64 @@
     display: none;
   }
 }
+
+.menyu i {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.menyu-btn i {
+  font-size: 35px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.menyu ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.menyu ul {
+  text-align: center;
+}
+
+.radio {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.popup {
+  display: none;
+}
+
+.menyu {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  width: 200px;
+  background-color: black;
+  height: 100%;
+  transition: 1s;
+}
+
+.radio:checked + .popup {
+  display: block;
+}
+
+.radio:checked ~ .menyu {
+  right: 0;
+  transform: translateX(0);
+}
